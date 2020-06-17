@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+a {text-decoration: none;}
+ul {list-style: none;}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12px; background: #f4f3f3 url(../img/background.png) repeat-x; color: #737373;}
+h2 {font-size: 14px; font-weight: normal; color: #656565;}
+
+.wrapper {margin: 0 auto; width: 850px; /*border: 1px solid #000;*/}
+
+.header-block {margin-top: 23px; display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 23px; align-items: center;}
+.menu {display: flex; flex-direction: row; width: 478px; height: 55px; background: url(../img/navigation.png) no-repeat; align-items: center;}
+.menu li {padding: 10px 19px;}
+.menu li a {color: #676767;}
+.menu li a.active {background-color: #8f8f8f; padding: 4px 14px; color: #fff; border-radius: 5px;}
+
+.preview-block {display: flex; flex-direction: row;}
+.prev_img {position: relative; left: -25px; left: -31px; top: -6px;}
+.prev_text {padding-top: 35px; word-spacing: 2px; line-height: 17px;}
+.prev_text img {float: left; margin-right: 15px;}
+.prev_text h2 {padding-bottom: 10px;}
+.prev_text a  {float: right; width: 249px;}
+.prev_text a img {border-radius: 15px; border: 1px solid #a8a8a8;}
+.prev_text a img:hover {box-shadow: 0px 10px 13px -7px #a5a5a5, 5px 5px 15px 5px rgba(184,184,184,0);}
+
+.main-block {margin-top: -20px;}
+.main-block h1 {font-size: 30px; color: #000; font-weight: normal; padding-bottom: 15px; letter-spacing: -1px;}
+.main-block p {color: #767776; line-height: 18px;}
+img.h_line {float: right; width: 620px; margin-top: 20px;}
+.photo {display: flex; flex-direction: row; justify-content: space-between; margin-top: 25px; margin-bottom: 25px;}
+.photo img {background-color: #fff; padding: 6px; border: 1px solid #b8b8b8;}
+.photo img:hover {box-shadow: 0px 10px 13px -7px #a5a5a5, 5px 5px 15px 5px rgba(184,184,184,0);}
+
+.footer-block p {text-align: center; margin: 10px 0; line-height: 17px;}
+.footer-block a {color: #444444; text-decoration: none;}
+.footer-block a:hover {color: #444444; text-decoration: underline;}
