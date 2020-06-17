@@ -1,7 +1,9 @@
-$g: green;
+$g: #000;
+$bc: rgb(248, 248, 248);
 
 * {box-sizing: border-box;}
 
 body {
     color: $g;
+    background-color: $bc;
 }
