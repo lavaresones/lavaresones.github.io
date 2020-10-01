@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<testimonials>
+	<item>
+		<content>текст1</content>
+		<author-name>Вася Бобровский</author-name>
+		<author-url>vbobrovski.com</author-url>
+	</item>
+	<item>
+		<content>текст2</content>
+		<author-name>Иванов Иван</author-name>
+		<author-url>ivan.com</author-url>
+	</item>
+	<item>
+		<content>текст3</content>
+		<author-name>Мария Софьева</author-name>
+	</item>
+</testimonials>
