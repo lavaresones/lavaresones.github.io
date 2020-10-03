@@ -6,8 +6,8 @@
 body {
   font-size: 22px;
   color: #fff;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  background: rgb(0,101,255);
+  background: radial-gradient(circle, rgba(0,101,255,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 a {
